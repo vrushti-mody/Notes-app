@@ -4,7 +4,7 @@
   "description": "a todo app",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node app.js"
   },
   "author": "Vrushti",
   "license": "ISC",
@@ -14,5 +14,15 @@
     "express": "^4.17.1",
     "mongodb": "^3.4.1",
     "mongoose": "^5.8.2"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vrushti-mody/Notes-app.git"
+  },
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/vrushti-mody/Notes-app/issues"
+  },
+  "homepage": "https://github.com/vrushti-mody/Notes-app#readme"
 }
