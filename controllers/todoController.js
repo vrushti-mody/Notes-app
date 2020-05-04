@@ -14,7 +14,7 @@ var mongoose = require ('mongoose');
 // });
 
 
-var data=[{item:'get milk'},{item:'walk'},{item:'get some'}]
+var data=[{item:'get milk'},{item:'walk'},{item:'Miss Roro'}]
 var urlencodedParser= bodyParser.urlencoded({extended: false});
 
 module.exports = function(app){
